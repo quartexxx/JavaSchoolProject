@@ -1,0 +1,9 @@
+model\DBUtils.class
+model\FractionCalculatorModel.class
+servlet\HistoryServlet.class
+model\Fraction.class
+servlet\CalculationServlet.class
+com\mycompany\web\resources\JakartaEE8Resource.class
+model\InvalidValueException.class
+servlet\FractionContextListener.class
+com\mycompany\web\JakartaRestConfiguration.class

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fraction Calculator</title>
+    </head>
+    <body>
+        <h1>Fraction Calculator</h1>
+
+        <form action="calculate" method="post">
+            <label for="num1">Num1:</label>
+            <input type="text" id="num1" name="num1" required>
+            /
+            <input type="text" id="den1" name="den1" required>
+
+            <label for="operation">Operation:</label>
+            <input type="text" id="operation" name="operation" maxlength="1" required>
+
+            <label for="num2">Num2:</label>
+            <input type="text" id="num2" name="num2" required>
+            /
+            <input type="text" id="den2" name="den2" required>
+
+            <input type="submit" value="Calculate">
+        </form>
+
+
+
+
+
+        <h2>History:</h2>
+        <a id="historyButton" href="/serwer/history">Get History</a>
+        <ul id="historyList"></ul>
+
+
+    </body>
+</html>
